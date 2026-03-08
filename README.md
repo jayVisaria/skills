@@ -50,12 +50,6 @@ Skills in this repo work with any agent that supports the [Agent Skills specific
 
 ---
 
-## License
-
-[MIT](LICENSE)
-
----
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jayVisaria/skills&type=Date)](https://star-history.com/#jayVisaria/skills&Date)

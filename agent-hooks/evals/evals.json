@@ -1,0 +1,54 @@
+[
+  {
+    "query": "I want to block any bash command that tries to delete files with rm -rf. Set up a hook for my Claude Code project.",
+    "should_trigger": true
+  },
+  {
+    "query": "I need a hook that automatically runs prettier on any file that Claude writes or edits. This should work in both Claude Code and VS Code.",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I make Claude keep working until all my tests pass? I don't want it to stop prematurely. I'm using Claude Code.",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I configure PreToolUse and PostToolUse hooks?",
+    "should_trigger": true
+  },
+  {
+    "query": "Set up a SessionStart hook to inject project context into my Claude Code session.",
+    "should_trigger": true
+  },
+  {
+    "query": "What is the difference between exit code 0 and exit code 2 in a hook script?",
+    "should_trigger": true
+  },
+  {
+    "query": "Set up a hook to auto-approve read-only tool calls in VS Code agent",
+    "should_trigger": true
+  },
+  {
+    "query": "My PreToolUse hook isn't firing — how do I debug it?",
+    "should_trigger": true
+  },
+  {
+    "query": "Filter user prompts to block certain topics in Claude Code",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I write a Python function to parse a JSON file?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me set up a CI/CD pipeline with GitHub Actions.",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I add a pre-commit Git hook to run linting?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I use React lifecycle hooks like useEffect?",
+    "should_trigger": false
+  }
+]
