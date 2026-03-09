@@ -11,6 +11,7 @@ Each skill extends your agent with specialized knowledge and capabilities for sp
 | Skill | Description |
 |-------|-------------|
 | [agent-hooks](agent-hooks/) | Automate, gate, and extend agent behavior at lifecycle points (PreToolUse, PostToolUse, SessionStart, Stop, and more) |
+| [pine-script](pine-script/) | Write, fix, review, and explain TradingView Pine Script — indicators, strategies, libraries, alerts, multi-timeframe analysis, and more |
 
 ---
 

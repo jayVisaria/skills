@@ -1,0 +1,15 @@
+[
+  {"query": "Write a Pine Script indicator that plots a 50-period EMA on the chart", "should_trigger": true},
+  {"query": "My Pine Script strategy isn't backtesting correctly, entries fire too early", "should_trigger": true},
+  {"query": "How do I use request.security to get the daily close on an intraday chart?", "should_trigger": true},
+  {"query": "Convert this Pine indicator to a strategy with long/short entries and exits", "should_trigger": true},
+  {"query": "Add an alertcondition to my Pine Script when RSI crosses above 70", "should_trigger": true},
+  {"query": "Why does my Pine Script v6 plot look different on historical vs live bars?", "should_trigger": true},
+  {"query": "Write a Pine Script library that exports a custom pivot point function", "should_trigger": true},
+  {"query": "How do I create a UDT with an array field in Pine Script 6?", "should_trigger": true},
+  {"query": "Write a Python script to calculate moving averages on OHLCV data", "should_trigger": false},
+  {"query": "How do I set up a React trading dashboard component?", "should_trigger": false},
+  {"query": "Review my CSS layout for accessibility issues", "should_trigger": false},
+  {"query": "Write a SQL query to join order and trade tables", "should_trigger": false},
+  {"query": "Help me build a trading bot in JavaScript using ccxt", "should_trigger": false}
+]

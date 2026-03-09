@@ -1,0 +1,42 @@
+{
+  "skill_name": "pine-script",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write a Pine Script v6 indicator that plots a 50-period EMA and colors bars green when price is above it, red when below.",
+      "expected_output": "A valid //@version=6 indicator script with input.int for length, ta.ema(), plot(), and barcolor()",
+      "files": [],
+      "expectations": [
+        "Script starts with //@version=6",
+        "Uses indicator() declaration",
+        "Uses input.int or input for length parameter",
+        "Uses ta.ema() for EMA calculation",
+        "Uses plot() to display the EMA",
+        "Uses barcolor() to color bars conditionally"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "My Pine Script strategy fires entries on every bar instead of just crossovers. Here is the code: //@version=6\nstrategy('Test')\nif close > ta.sma(close, 20)\n    strategy.entry('Long', strategy.long)",
+      "expected_output": "Identified that the strategy requires a crossover condition, not a persistent close > sma condition. Provides corrected code using ta.crossover().",
+      "files": [],
+      "expectations": [
+        "Identifies the issue as missing crossover condition",
+        "Replaces close > ta.sma with ta.crossover()",
+        "Returns corrected //@version=6 strategy code"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Show me how to get the confirmed daily close on an intraday chart using request.security without repainting.",
+      "expected_output": "Code using request.security with close[1] and barmerge.lookahead_on to get confirmed previous-close values only",
+      "files": [],
+      "expectations": [
+        "Uses request.security()",
+        "Uses close[1] offset (not bare close) to avoid repainting",
+        "Uses barmerge.lookahead_on",
+        "Explains the repainting risk and why the pattern avoids it"
+      ]
+    }
+  ]
+}
