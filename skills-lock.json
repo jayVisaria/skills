@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-hooks": {
+      "source": "jayVisaria/skills",
+      "sourceType": "github",
+      "computedHash": "96d13ed8e9a232de4266c243c0e7b8bcbea52d3917a38d1cdb4f253fd6e0d97a"
+    },
+    "pine-script": {
+      "source": "jayVisaria/skills",
+      "sourceType": "github",
+      "computedHash": "62e9ac40be57ffb96c2505d4152cbb3f42ff29ea3a89b58503eec06d3a79e1eb"
+    }
+  }
+}
