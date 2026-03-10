@@ -42,12 +42,3 @@ Skills in this repo work with any agent that supports the [Agent Skills specific
 - [and more](https://github.com/vercel-labs/skills#supported-agents)
 
 ---
-
-## Contributing
-
-1. Fork this repository
-2. Create a new folder for your skill with a `SKILL.md` inside
-3. Open a pull request
-
----
-
