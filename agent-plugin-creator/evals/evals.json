@@ -1,0 +1,17 @@
+{
+  "skill_name": "agent-plugin-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create an Agent Plugin for a small invoice management toolkit that bundles one skill and one stdio MCP server.",
+      "expected_output": "A plugin skeleton with plugin.json, a skills/ directory containing a skill stub, and an mcp.json with a stdio server entry.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Validate an existing Agent Plugin package and report any fatal, invalid, or advisory issues.",
+      "expected_output": "A validation report that runs the validator and summarizes the findings clearly.",
+      "files": []
+    }
+  ]
+}

@@ -6,6 +6,11 @@
       "sourceType": "github",
       "computedHash": "96d13ed8e9a232de4266c243c0e7b8bcbea52d3917a38d1cdb4f253fd6e0d97a"
     },
+    "agent-plugin-creator": {
+      "source": "jayVisaria/skills",
+      "sourceType": "github",
+      "computedHash": "7cf65c3eed1d232be9655943c9758905a7dbf7fa5d2847bbfe74bc0fe825efce"
+    },
     "pine-script": {
       "source": "jayVisaria/skills",
       "sourceType": "github",
